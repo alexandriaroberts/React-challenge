@@ -1,47 +1,68 @@
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Joyjet tech interview
+## Available Scripts
 
-This is a test to analyze knowledge in web development, using specifics resources.
+In the project directory, you can run:
 
-## Guidelines
+### `npm start`
 
-- [Duplicate](https://help.github.com/articles/duplicating-a-repository/) this repository (do **not** fork it);
-- Resolve your test;
-- Layout is in Sketch and PDF.
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Features
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-The project must be built following a writing standard established by you, and the project should be **responsive**.
+### `npm test`
 
- - [Pug/Jade](https://pugjs.org/api/getting-started.html) or HTML5 Pure;
- - CSS3;
- - SCSS;
- - [Gulp](https://gulpjs.com/) or [Webpack](https://webpack.js.org/);
- - Grid: [Flexbox Grid](https://github.com/hugeinc/flexboxgrid-sass) or [Bootstrap 4+ SCSS Version](https://getbootstrap.com/docs/4.0/getting-started/theming/);
- - Icons: [Elegant Icons](https://github.com/josephnle/elegant-icons);
- - Font: [Poppins](https://fonts.google.com/specimen/Poppins).
- 
- You should document the components created for the site in some way, such as [Storybook](https://storybook.js.org/), feel free to choose the tool that best fits your test.
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Example :
+### `npm run build`
 
-![Alt Text](images/story.gif)
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-OBS: Will be a great differential if you use the [Scss version of the bootstrap 4+](https://getbootstrap.com/docs/4.0/getting-started/theming/).
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Differentials
+### `npm run eject`
 
-- Indented code is a pleasure to look at;
-- Using [Bootstrap 4+ SCSS Version](https://getbootstrap.com/docs/4.0/getting-started/theming/)
-- Never use images wider than 1920px (unless this is really necessary or specified);
-- You can use Pug to create static pages, but if you use React.js it will be a big differential;
-- Effects and animations will receive bonus points;
-- SVG Animations of shapes;
-- WebGL Animations with Three.js or Babylon.js;
-- Animations with Framer X;
-- Sticky navigation bar (blue stripe on the middle) should be fixed on top after scrolling on page;
-- Git is essential, but organization is also essential, remember this;
-- Remember : [image compression](https://tinypng.com/) is important\!
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-This is a model of a sticky navigation-bar, fixed on top after scrolling on page.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

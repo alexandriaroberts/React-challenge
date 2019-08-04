@@ -1,0 +1,84 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.background_image {
+  width: 100%;
+  height: 70vw;
+  object-fit: cover;
+}
+
+.card {
+  border: none;
+  border-radius: 5%;
+}
+.card_image {
+  width: 20vw;
+  height: 20vw;
+  object-fit: cover;
+}
+
+
+.carou-left {
+  position: absolute;
+  /* top: 250px; */
+  width: 30px;
+  height: 30px;
+  bottom: -300px;
+  left: 60px;
+  z-index: 99;
+}
+
+.carou-right {
+  position: absolute;
+  right: 60px;
+  bottom: -300px;
+  width: 30px;
+  height: 30px;
+  z-index: 99;
+}
+
+.carou-indicator {
+  position: relative;
+  bottom: 0;
+  height: 50px;
+  z-index: 999999;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+
+.jumbotron {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/43688.jpg") center center no-repeat;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.about_heading {
+  color: #4A90E2 ;
+  font-size: 26px;
+}
+.about_image img {  
+  object-fit: cover;
+ 
+ }
+
+.about-text {
+  float: right;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
