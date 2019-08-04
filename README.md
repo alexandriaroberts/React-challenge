@@ -14,6 +14,7 @@ Thank you for coming to our tech-interview test page. Come and help us build gam
 
 ## What we expect
 
+
 - Clean code;
 - Tests;
 - Comments when you need to clarify a design decision or assumptions about the spec;
