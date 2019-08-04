@@ -5,12 +5,11 @@ import card3 from "../images/43698.jpg";
 
 const CardArea = () => (
   <div className="container py-5 my-5">
-
-    <div class="carou-left">
+    <div className="carou-left">
       <a
         data-slide="prev"
         href="#multi-item-example"
-        class="left carousel-control"
+        className="left carousel-control d-none d-lg-block"
       >
         <svg
           width="17"
@@ -33,7 +32,7 @@ const CardArea = () => (
       <a
         data-slide="next"
         href="#multi-item-example"
-        class="right carousel-control"
+        className="right carousel-control d-none d-lg-block"
       >
         <svg
           width="17"
@@ -200,16 +199,34 @@ const CardArea = () => (
       </div>
     </div>
     <div class="carou-indicator">
-    <ol className="carousel-indicators">
-      <li
-        data-target="#multi-item-example"
-        data-slide-to="0"
-        className="active"
-      />
-      <li data-target="#multi-item-example" data-slide-to="1" />
-      <li data-target="#multi-item-example" data-slide-to="2" />
-    </ol>
-  </div>
+      <ol className="carousel-indicators">
+        <li
+          data-target="#multi-item-example"
+          data-slide-to="0"
+          className=" active d-lg-none"
+        />
+        <li
+          data-target="#multi-item-example"
+          className="d-lg-none"
+          data-slide-to="1"
+        />
+        <li
+          data-target="#multi-item-example"
+          className="d-lg-none"
+          data-slide-to="2"
+        />
+        <li
+          data-target="#multi-item-example"
+          className="d-lg-none"
+          data-slide-to="1"
+        />
+        <li
+          data-target="#multi-item-example"
+          className="d-lg-none"
+          data-slide-to="2"
+        />
+      </ol>
+    </div>
   </div>
 );
 

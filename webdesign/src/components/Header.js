@@ -5,7 +5,7 @@ const Header = () => (
     <header>
       <nav class="navigation" className="navbar navbar-expand-lg navbar-dark fixed-top">
         <div className="d-flex flex-grow-1">
-          <span className="col-md-2" />
+          <span className="col-md-1" />
           <a className="navbar-brand px-4" href="#">
             <svg
               width="64"
@@ -34,7 +34,7 @@ const Header = () => (
           </div>
         </div>
         <div
-          className="collapse navbar-collapse flex-grow-1 text-right"
+          className="collapse navbar-collapse flex-grow-1 text-center"
           id="myNavbar7"
         >
           <ul className="navbar-nav ml-auto flex-nowrap">
