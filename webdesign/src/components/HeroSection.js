@@ -1,5 +1,6 @@
 import React from "react";
 
+// Hero Area Section with Jumbotron, and some text.
 const HeroSection = () => (
   <div className="jumbotron">
     <div className="row-5 px-lg-5 ml-md-5 col-md-6 py-5">

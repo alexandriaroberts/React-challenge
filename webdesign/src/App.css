@@ -14,17 +14,16 @@
 }
 
 .trend-content {
-background: #000;
-opacity: 0.65;
-
+  background: #000;
+  opacity: 0.65;
 }
 
 .card-body-decoration {
-    border-right: #f8f9fa 1px solid;
+  border-right: #f8f9fa 1px solid;
 }
 
 .text-decoration {
-  color: #4A90E2;
+  color: #4a90e2;
 }
 .card {
   border: none;
@@ -36,8 +35,8 @@ opacity: 0.65;
   object-fit: cover;
 }
 
-.btn-primary{
-  background: #4A90E2;
+.btn-primary {
+  background: #4a90e2;
 }
 .carou-left {
   position: absolute;
@@ -66,14 +65,12 @@ opacity: 0.65;
 }
 
 .carou-indicator .carousel-indicators > li {
-
   border-radius: 50%;
-  background: #9B9B9B;
+  background: #9b9b9b;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
 }
-
 
 .jumbotron {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -87,13 +84,12 @@ opacity: 0.65;
 }
 
 .about_heading {
-  color: #4A90E2 ;
+  color: #4a90e2;
   font-size: 26px;
 }
-.about_image img {  
+.about_image img {
   object-fit: cover;
- 
- }
+}
 
 .about-text {
   float: right;

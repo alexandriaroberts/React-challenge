@@ -1,9 +1,13 @@
 import React from "react";
 
+// Navbar
 const Header = () => (
   <div className="container">
     <header>
-      <nav class="navigation" className="navbar navbar-expand-lg navbar-dark fixed-top">
+      <nav
+        class="navigation"
+        className="navbar navbar-expand-lg navbar-dark fixed-top"
+      >
         <div className="d-flex flex-grow-1">
           <span className="col-md-1" />
           <a className="navbar-brand px-4" href="#">

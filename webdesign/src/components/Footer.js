@@ -1,5 +1,6 @@
 import React from "react";
 
+// Sticky Footer
 const Footer = () => (
   <footer class="footer mt-auto py-3">
     <div class="container">

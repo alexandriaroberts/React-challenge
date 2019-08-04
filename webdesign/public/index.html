@@ -56,12 +56,13 @@
       crossorigin="anonymous"
     ></script>
     <script>
-      $(window).scroll(function(){
-      var scroll = $(window).scrollTop();
-      if(scroll < 30){
-          $('.fixed-top').css('background', '#4A90E2');
-      } 
-  });
-  </script>
+      // This JavaScript section is for adding scroll background to the nav bar
+      $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if (scroll < 30) {
+          $(".fixed-top").css("background", "#4A90E2");
+        }
+      });
+    </script>
   </body>
 </html>

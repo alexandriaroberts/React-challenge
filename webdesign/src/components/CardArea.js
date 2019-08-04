@@ -3,6 +3,7 @@ import card1 from "../images/43690.jpg";
 import card2 from "../images/43688.jpg";
 import card3 from "../images/43698.jpg";
 
+// Card Section
 const CardArea = () => (
   <div className="container py-5 my-5">
     <div className="carou-left">
